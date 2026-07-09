@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WickControl — Support</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fbf9f5;
+    --text: #2a2420;
+    --text-muted: #6b6055;
+    --accent: #b8720e;
+    --border: #e4ddd1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1815;
+      --text: #f0eae0;
+      --text-muted: #a79b8c;
+      --accent: #e0a542;
+      --border: #3a322a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    max-width: 34rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 3rem;
+    line-height: 1.6;
+    color: var(--text);
+    background: var(--bg);
+  }
+  a { color: var(--accent); }
+  .back {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-decoration: none;
+    margin-bottom: 2rem;
+  }
+  .back:hover { color: var(--accent); }
+  .eyebrow {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin: 0 0 0.6rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+    margin: 0 0 0.4rem;
+  }
+  .tagline {
+    color: var(--text-muted);
+    margin: 0 0 2.25rem;
+    font-size: 1.02rem;
+  }
+  .intro { margin-bottom: 2.5rem; }
+  h2 {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin: 0 0 1rem;
+    padding-top: 1.75rem;
+    border-top: 1px solid var(--border);
+  }
+  section:first-of-type h2 { border-top: none; }
+  ul.features { padding-left: 1.15rem; margin: 0; }
+  ul.features li { margin-bottom: 0.5rem; }
+  .faq-item { padding: 1.1rem 0; border-top: 1px solid var(--border); }
+  .faq-item:last-child { padding-bottom: 0; }
+  .faq-item h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.4rem;
+  }
+  .faq-item p { margin: 0; color: var(--text-muted); }
+  .faq-item p a { color: var(--accent); }
+  footer {
+    margin-top: 3.5rem;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+  }
+</style>
+</head>
+<body>
+  <a class="back" href="../">&larr; All apps</a>
+
+  <h1>WickControl</h1>
+  <p class="tagline">Inventory &amp; cost tracking for candle makers.</p>
+
+  <p class="intro">
+    WickControl helps candle makers — hobbyists and small businesses alike —
+    track material purchases, manage warehouse inventory, and calculate
+    accurate production costs and pricing. All data stays on your device:
+    there's no account, no cloud sync, and no tracking.
+  </p>
+
+  <section>
+    <h2>What it does</h2>
+    <ul class="features">
+      <li>Log purchases: material, quantity, price, supplier</li>
+      <li>See current stock and its value at a glance</li>
+      <li>Create write-offs for each production batch, costed using FIFO</li>
+      <li>Add a markup to get an accurate final price for what you make</li>
+      <li>Available in English, Ukrainian, and Russian</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Frequently asked questions</h2>
+
+    <div class="faq-item">
+      <h3>Is my data backed up or synced anywhere?</h3>
+      <p>No. WickControl stores everything locally on your device only.
+      Deleting the app or losing your device means losing its data, so back
+      up your device regularly through iOS/iCloud backup if that matters to
+      you.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What does the in-app purchase unlock?</h3>
+      <p>The free version covers a limited number of materials and
+      write-offs. A single in-app purchase removes that limit for unlimited
+      materials and write-offs. There are no subscriptions.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>I found a bug or have a question. How do I reach you?</h3>
+      <p>Email <a href="mailto:metaruntech@gmail.com">metaruntech@gmail.com</a>
+      and describe what happened — the more detail, the faster it can get
+      fixed.</p>
+    </div>
+  </section>
+
+  <footer>&copy; 2026 Iakov Korotenko</footer>
+</body>
+</html>
