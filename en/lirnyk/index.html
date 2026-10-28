@@ -1,0 +1,316 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lirnyk — Support</title>
+<link rel="alternate" hreflang="en" href="https://cheyako.github.io/apps/en/lirnyk/">
+<link rel="alternate" hreflang="uk" href="https://cheyako.github.io/apps/uk/lirnyk/">
+<link rel="alternate" hreflang="x-default" href="https://cheyako.github.io/apps/lirnyk/">
+<script
+  defer
+  src="https://umami.apps.mare.pp.ua/script.js"
+  data-website-id="697087b8-fc7b-4eba-9d7e-e375b8bba8c8">
+</script>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fbf9f5;
+    --text: #2a2420;
+    --text-muted: #6b6055;
+    --accent: #b8720e;
+    --border: #e4ddd1;
+    --button: #8a5306;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1815;
+      --text: #f0eae0;
+      --text-muted: #a79b8c;
+      --accent: #e0a542;
+      --border: #3a322a;
+      --button: #e0a542;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    max-width: 34rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 3rem;
+    line-height: 1.6;
+    color: var(--text);
+    background: var(--bg);
+  }
+  a { color: var(--accent); }
+  .back {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-decoration: none;
+  }
+  .back:hover { color: var(--accent); }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .lang { font-size: 0.85rem; color: var(--text-muted); }
+  .lang a { color: var(--text-muted); text-decoration: none; }
+  .lang a:hover { color: var(--accent); }
+  .eyebrow {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin: 0 0 0.6rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+    margin: 0 0 0.4rem;
+  }
+  .tagline {
+    color: var(--text-muted);
+    margin: 0 0 2.25rem;
+    font-size: 1.02rem;
+  }
+  .intro { margin-bottom: 2.5rem; }
+  h2 {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin: 0 0 1rem;
+    padding-top: 1.75rem;
+    border-top: 1px solid var(--border);
+  }
+  section:first-of-type h2 { border-top: none; }
+  ul.features { padding-left: 1.15rem; margin: 0; }
+  ul.features li { margin-bottom: 0.5rem; }
+  .faq-item { padding: 1.1rem 0; border-top: 1px solid var(--border); }
+  .faq-item:last-child { padding-bottom: 0; }
+  .faq-item h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.4rem;
+  }
+  .faq-item p { margin: 0; color: var(--text-muted); }
+  .faq-item p a { color: var(--accent); }
+  ol.steps { padding-left: 1.3rem; margin: 0; }
+  ol.steps li { margin-bottom: 0.5rem; }
+  .note { color: var(--text-muted); font-size: 0.92rem; margin: 1rem 0 0; }
+  dl.providers { margin: 0; }
+  dl.providers dt { font-weight: 600; margin-top: 0.9rem; }
+  dl.providers dt:first-child { margin-top: 0; }
+  dl.providers dd { margin: 0.15rem 0 0; color: var(--text-muted); }
+  .donate {
+    margin-top: 0.25rem;
+    padding: 1.25rem 1.35rem;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+  }
+  .donate p { margin: 0 0 1rem; }
+  .donate-button {
+    display: inline-block;
+    padding: 0.55rem 1.1rem;
+    border-radius: 999px;
+    background: var(--button);
+    color: var(--bg);
+    font-weight: 600;
+    text-decoration: none;
+  }
+  .donate-button:hover { filter: brightness(1.08); }
+  .site {
+    margin: 0 0 2.25rem;
+    padding: 1.1rem 1.35rem;
+    border: 1px solid var(--border);
+    border-radius: 14px;
+  }
+  .site p { margin: 0 0 0.9rem; }
+  .site .links { display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem 1.25rem; margin: 0; }
+  code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: 0.9em; }
+  footer {
+    margin-top: 3.5rem;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+  }
+</style>
+</head>
+<body>
+  <div class="top">
+    <a class="back" href="../">&larr; All apps</a>
+    <nav class="lang"><span aria-current="page">English</span> &middot; <a href="../../uk/lirnyk/" hreflang="uk" lang="uk">Українська</a></nav>
+  </div>
+
+  <h1>Lirnyk</h1>
+  <p class="tagline">Rephrase selected text in any Mac app with AI.</p>
+
+  <div class="site">
+    <p>Lirnyk now has its own website, with the latest download, a demo and what changed in each version.</p>
+    <p class="links">
+      <a class="donate-button" href="https://lirnyk.app/download">Download for Mac</a>
+      <a href="https://lirnyk.app/?ref=ghpages">Go to lirnyk.app</a>
+    </p>
+  </div>
+
+  <p class="intro">
+    Lirnyk lives in the macOS menu bar. Select text in any app — Mail, Slack,
+    Notes, a browser — and press a shortcut. Lirnyk sends the text to the AI
+    provider you choose, or to a model running on your own Mac, and replaces
+    your selection with the rewritten version. Press &#8984;Z to undo it.
+  </p>
+
+  <section>
+    <h2>What it does</h2>
+    <ul class="features">
+      <li>Works in any app where you can select, copy and paste text</li>
+      <li>Profiles, each with its own shortcut and prompt. Defaults:
+        Friendly (&#8963;&#8997;F), Corporate (&#8963;&#8997;H) and Tech (&#8963;&#8997;O)</li>
+      <li>Write your own profiles: the prompt controls tone, style and language.
+        Try a prompt on sample text right in Settings before you use it</li>
+      <li>Works with <a href="https://openrouter.ai">OpenRouter</a>, OpenAI,
+        Anthropic and Gemini, or fully offline with a local model through
+        <a href="https://ollama.com">Ollama</a></li>
+      <li>Pick a model from a list of suggestions, or type any model ID.
+        With Ollama, the list shows the models you have installed</li>
+      <li>Keeps your clipboard: what you copied before is restored afterwards</li>
+      <li>Shows progress next to the cursor; press Esc to cancel</li>
+      <li>Checks for new versions once a day and tells you in the menu; you
+        can turn this off</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>How it works</h2>
+    <ol class="steps">
+      <li>Select text and press a profile&rsquo;s shortcut, for example
+        &#8963;&#8997;F.</li>
+      <li>Lirnyk saves your clipboard, copies the selection, and sends it to
+        the AI with the profile&rsquo;s prompt as instructions.</li>
+      <li>When the answer arrives, Lirnyk pastes it over your selection and
+        puts your clipboard back. Spaces and line breaks around the selection
+        are kept.</li>
+    </ol>
+    <p class="note">While it works, the menu bar icon pulses and a small
+    bubble near the cursor shows progress. If something goes wrong &mdash;
+    nothing selected, a network error, an answer that was cut off &mdash;
+    Lirnyk shows the error and leaves your text untouched.</p>
+  </section>
+
+  <section>
+    <h2>AI providers</h2>
+    <dl class="providers">
+      <dt><a href="https://openrouter.ai">OpenRouter</a></dt>
+      <dd>One key for hundreds of models from OpenAI, Anthropic, Google and
+        others. The easiest place to start.</dd>
+      <dt>OpenAI, Anthropic, Gemini</dt>
+      <dd>Use your own key with the provider directly. Each provider keeps its
+        own key and model, so you can switch back and forth.</dd>
+      <dt><a href="https://ollama.com">Ollama</a> (local)</dt>
+      <dd>Runs a model on your Mac, so your text never leaves it. No key and no
+        cost. You can also point Lirnyk at Ollama on another machine in your
+        network.</dd>
+    </dl>
+    <p class="note">One model is used for all profiles. Small, fast models
+    work well for rewriting; use <strong>Test</strong> in Settings to check
+    your key and model.</p>
+  </section>
+
+  <section>
+    <h2>Getting started</h2>
+    <ul class="features">
+      <li>Requires macOS 14 Sonoma or later</li>
+      <li><a href="https://lirnyk.app/download">Download Lirnyk</a> and move it
+        to Applications, or install it with Homebrew:
+        <code>brew install --cask cheyako/tap/lirnyk</code></li>
+      <li>Allow Accessibility access in System Settings &rarr; Privacy &amp;
+        Security &rarr; Accessibility. Lirnyk needs it to copy and paste the
+        selection for you</li>
+      <li>In Lirnyk&rsquo;s Settings, pick a provider and paste its API key.
+        <a href="https://openrouter.ai/keys">OpenRouter</a> gives you many
+        models with one key</li>
+      <li>Prefer to stay offline? Install <a href="https://ollama.com">Ollama</a>,
+        pull a model (for example <code>ollama pull llama3.2</code>) and choose
+        Ollama in Settings. No key needed</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Frequently asked questions</h2>
+
+    <div class="faq-item">
+      <h3>Where does my text go?</h3>
+      <p>Only the text you select when you press a shortcut is sent, together
+      with the profile&rsquo;s prompt, to the provider and model you chose.
+      With Ollama it never leaves your Mac (or your own server). Your text
+      never passes through a Lirnyk server, and Lirnyk has no account and no
+      analytics. API keys are stored in the macOS Keychain. The daily update
+      check asks lirnyk.app for the latest version and sends only the app and
+      macOS versions; see the <a href="https://lirnyk.app/privacy">privacy
+      page</a>.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How much does it cost?</h3>
+      <p>Lirnyk is free and open source. With a cloud provider, it bills you
+      for what you use with your key at its usual rates. Local models through
+      Ollama cost nothing.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can it write in other languages?</h3>
+      <p>Yes. The default profiles keep the language of your text. Write a
+      profile such as &ldquo;Translate to English&rdquo; and it translates
+      instead &mdash; the prompt decides.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can I change the shortcuts?</h3>
+      <p>Yes. Open Settings &rarr; Profiles, pick a profile and record a new
+      shortcut. You can also run any profile from the menu bar menu.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Nothing happens when I press a shortcut.</h3>
+      <p>Check that Lirnyk is allowed under Accessibility in System Settings
+      and that text is selected. If Lirnyk was updated, remove it from the
+      Accessibility list and add it again.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Where is the source code?</h3>
+      <p>On GitHub:
+      <a href="https://github.com/cheyako/lirnyk-app">cheyako/lirnyk-app</a>,
+      under the GNU GPL v3. The Lirnyk name and icon are not covered by the
+      license.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>I found a bug or have a question. How do I reach you?</h3>
+      <p>Email <a href="mailto:metaruntech@gmail.com">metaruntech@gmail.com</a>
+      or open an issue on
+      <a href="https://github.com/cheyako/lirnyk-app/issues">GitHub</a>
+      and describe what happened — the more detail, the faster it can get
+      fixed.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Support Lirnyk</h2>
+    <div class="donate">
+      <p>Lirnyk is free, open source and made by one person in Ukraine. If it
+      saves you time, a coffee helps keep it going and pays for new
+      features.</p>
+      <a class="donate-button" href="https://ko-fi.com/cheyako">&#9749; Buy me a coffee on Ko-fi</a>
+    </div>
+  </section>
+
+  <footer>&copy; 2026 Iakov Korotenko &middot; <a href="https://lirnyk.app/?ref=ghpages">lirnyk.app</a></footer>
+</body>
+</html>

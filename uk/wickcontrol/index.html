@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="uk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>WickControl — Підтримка</title>
+<link rel="alternate" hreflang="en" href="https://cheyako.github.io/apps/en/wickcontrol/">
+<link rel="alternate" hreflang="uk" href="https://cheyako.github.io/apps/uk/wickcontrol/">
+<link rel="alternate" hreflang="x-default" href="https://cheyako.github.io/apps/wickcontrol/">
+<script
+  defer
+  src="https://umami.apps.mare.pp.ua/script.js"
+  data-website-id="697087b8-fc7b-4eba-9d7e-e375b8bba8c8">
+</script>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fbf9f5;
+    --text: #2a2420;
+    --text-muted: #6b6055;
+    --accent: #b8720e;
+    --border: #e4ddd1;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #1c1815;
+      --text: #f0eae0;
+      --text-muted: #a79b8c;
+      --accent: #e0a542;
+      --border: #3a322a;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    max-width: 34rem;
+    margin: 0 auto;
+    padding: 3.5rem 1.5rem 3rem;
+    line-height: 1.6;
+    color: var(--text);
+    background: var(--bg);
+  }
+  a { color: var(--accent); }
+  .back {
+    display: inline-block;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-decoration: none;
+  }
+  .back:hover { color: var(--accent); }
+  .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  .lang { font-size: 0.85rem; color: var(--text-muted); }
+  .lang a { color: var(--text-muted); text-decoration: none; }
+  .lang a:hover { color: var(--accent); }
+  .eyebrow {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    margin: 0 0 0.6rem;
+  }
+  h1 {
+    font-size: 1.9rem;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+    margin: 0 0 0.4rem;
+  }
+  .tagline {
+    color: var(--text-muted);
+    margin: 0 0 2.25rem;
+    font-size: 1.02rem;
+  }
+  .intro { margin-bottom: 2.5rem; }
+  h2 {
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    font-weight: 600;
+    margin: 0 0 1rem;
+    padding-top: 1.75rem;
+    border-top: 1px solid var(--border);
+  }
+  section:first-of-type h2 { border-top: none; }
+  ul.features { padding-left: 1.15rem; margin: 0; }
+  ul.features li { margin-bottom: 0.5rem; }
+  .faq-item { padding: 1.1rem 0; border-top: 1px solid var(--border); }
+  .faq-item:last-child { padding-bottom: 0; }
+  .faq-item h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 0.4rem;
+  }
+  .faq-item p { margin: 0; color: var(--text-muted); }
+  .faq-item p a { color: var(--accent); }
+  footer {
+    margin-top: 3.5rem;
+    font-size: 0.82rem;
+    color: var(--text-muted);
+  }
+</style>
+</head>
+<body>
+  <div class="top">
+    <a class="back" href="../">&larr; Усі застосунки</a>
+    <nav class="lang"><a href="../../en/wickcontrol/" hreflang="en" lang="en">English</a> &middot; <span aria-current="page">Українська</span></nav>
+  </div>
+
+  <h1>WickControl</h1>
+  <p class="tagline">Облік запасів і собівартості для свічкарів.</p>
+
+  <p class="intro">
+    WickControl допомагає свічкарям — і любителям, і малому бізнесу —
+    вести облік закупівель матеріалів, керувати залишками на складі та
+    точно розраховувати собівартість і ціну виробів. Усі дані зберігаються
+    лише на вашому пристрої: без облікового запису, без синхронізації з
+    хмарою і без відстеження.
+  </p>
+
+  <section>
+    <h2>Що він уміє</h2>
+    <ul class="features">
+      <li>Записувати закупівлі: матеріал, кількість, ціну, постачальника</li>
+      <li>Показувати поточні залишки та їхню вартість з першого погляду</li>
+      <li>Створювати списання для кожної партії виробів із розрахунком
+        собівартості за методом FIFO</li>
+      <li>Додавати націнку, щоб отримати точну кінцеву ціну виробу</li>
+      <li>Доступний англійською, українською та російською</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Поширені запитання</h2>
+
+    <div class="faq-item">
+      <h3>Чи створюються резервні копії моїх даних або чи синхронізуються вони?</h3>
+      <p>Ні. WickControl зберігає все лише локально на вашому пристрої.
+      Якщо видалити застосунок або втратити пристрій, дані буде втрачено,
+      тож, якщо вони для вас важливі, регулярно створюйте резервну копію
+      пристрою через iOS/iCloud.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Що відкриває вбудована покупка?</h3>
+      <p>Безкоштовна версія має обмеження на кількість матеріалів і
+      списань. Одна вбудована покупка знімає це обмеження: матеріалів і
+      списань стає необмежено. Підписок немає.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Знайшли помилку чи маєте запитання? Як зі мною зв&rsquo;язатися?</h3>
+      <p>Напишіть на <a href="mailto:metaruntech@gmail.com">metaruntech@gmail.com</a>
+      і опишіть, що сталося — що більше подробиць, то швидше вдасться
+      виправити.</p>
+    </div>
+  </section>
+
+  <footer>&copy; 2026 Яків Коротенко</footer>
+</body>
+</html>
